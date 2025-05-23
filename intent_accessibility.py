@@ -1,4 +1,4 @@
-import random
+import random #to simulate chances or probabilities (like whether a person can reach a facility).
 
 class Person:
     def __init__(self, location, intends_to_use_fp):
