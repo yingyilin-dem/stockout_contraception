@@ -22,10 +22,10 @@ def check_stockout(person, risks):
 # Sample data
 METHODS = ["implant", "IUD", "pill", "injectable"]
 stockout_risks = {
-    "implant": 0.20,
-    "IUD": 0.15,
-    "pill": 0.05,
-    "injectable": 0.10
+    "implant": 0.09,
+    "IUD": 0.26,
+    "pill": 0.17,
+    "injectable": 0.49
 }
 
 people = [
