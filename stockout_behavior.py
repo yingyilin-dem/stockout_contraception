@@ -72,7 +72,7 @@ for person in people:
     if person.intends_to_use_fp and person.can_reach_facility:
         handle_stockout(person, METHODS, stockout_risks)
     else:
-        print("→ Person did not intend to use or couldn't reach facility.")
+        print("→ Person did not intend to use or could not reach facility.")
 
     print(f"{person.location} | Intends: {person.intends_to_use_fp} | Preferred: {person.preferred_method} | Current: {person.current_method} | Received: {person.received_method}")
     print("–––")
